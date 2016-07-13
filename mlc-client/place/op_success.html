@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MLC</title>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="/common.css">
+
+    <style>
+        body {
+            font-family: Helvetica, Arial, serif;
+            font-size: 1.5em;
+        }
+
+        #successBox {
+            background-color: #72AC4D;
+
+            border: 1px solid #608847;
+            border-radius: 10px;
+
+            color: white;
+            text-align: center;
+        }
+
+        #info {
+            margin: 25px;
+
+            color: grey;
+        }
+
+        #okBox {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="viewBox centered">
+        <img id="logo" class="centeredX" src="/logo.png">
+
+        <div id="successBox" class="boxMargin boxPadding">Операция совершена успешно!</div>
+
+        <div id="info">
+            Клиент: ${???}<br>
+            Карта: ${???}<br>
+            Сумма по чеку: ${???} рублей<br>
+            Скидка по карте: ${???}% [${???} рублей]<br>
+            Бонусов начислено: ${???}<br>
+            <b>
+                Итог: ${???} рублей<br>
+                Сдача: ${???} рублей
+            </b>
+        </div>
+
+        <form action="op" method="post">
+            <input id="okBox" class="box boxMargin" type="submit" value="ОК">
+        </form>
+    </div>
+</body>
+
+</html>

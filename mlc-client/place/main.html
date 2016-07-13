@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MLC</title>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="/common.css">
+</head>
+
+<body>
+    <div class="viewBox centered">
+        <img id="logo" class="centeredX" src="/logo.png">
+
+        <form method="post">
+            <input class="box boxMargin" type="submit" formaction="op" value="Произвести операцию">
+            <input class="box boxMargin" type="submit" formaction="card_info" value="Просмотреть информацию о карте">
+        </form>
+
+        <form action="logout" method="post">
+            <input name="CSRFToken" type="hidden" value="${???}">
+            <input class="box boxMargin" type="submit" value="Выйти">
+        </form>
+    </div>
+</body>
+
+</html>

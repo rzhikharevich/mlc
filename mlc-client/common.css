@@ -1,0 +1,70 @@
+body {
+    font-family: -apple-system, Helvetica, Arial, serif;
+}
+
+.centered, .centeredX {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box {
+    background-color: white;
+
+    border-radius: 0px;
+
+    width: 90%;
+
+    border: 1px solid green;
+
+    font-size: 25pt;
+}
+
+.box, .boxPadding {
+    padding-left: 4px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.boxMargin {
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 2%;
+}
+
+.viewBox {
+    width: 675px;
+    height: 382px;
+}
+
+.radio {
+    height: 25px;
+}
+
+::-webkit-input-placeholder {
+    font-style: italic;
+}
+
+:-moz-placeholder {
+    font-style: italic;
+}
+
+::-moz-placeholder {
+    font-style: italic;
+}
+
+:-ms-input-placeholder {
+    font-style: italic;
+}
+
+:placeholder-shown {
+    font-style: italic;
+}
+
+#logo {
+    display: block;
+
+    padding-top: 4%;
+    padding-bottom: 2%;
+
+    height: 30%;
+}

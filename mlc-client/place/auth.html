@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MLC</title>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="/common.css">
+
+    <style>
+        #viewBox {
+            border: 1px solid grey;
+
+            border-radius: 40px;
+        }
+
+        #submitButton {
+            width: 80%;
+            margin-right: 1%;
+        }
+
+        #helpButton {
+            width: 9.4%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="viewBox" class="viewBox centered">
+        <img id="logo" class="centered" src="/logo.png">
+
+        <form action="auth" method="post">
+            <input id="place" name="place" class="box boxMargin" type="text" placeholder="Логин заведения">
+            <input id="password" name="password" class="box boxMargin" type="password" placeholder="Пароль заведения">
+            <input id="submitButton" class="box boxMargin" type="submit" value="Вход">
+            <input id="helpButton" class="box" type="button" value="?" onclick="">
+        </form>
+    </div>
+</body>
+
+</html>

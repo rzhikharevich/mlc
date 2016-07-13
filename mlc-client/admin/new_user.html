@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MLC</title>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="/common.css">
+
+    <style>
+        #helpButton {
+            width: 9.4%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="viewBox" class="viewBox centered">
+        <img id="logo" class="centered" src="/logo.png">
+
+        <form action="" method="post">
+            <input name="CSRFToken" type="hidden" value="${???}">
+            <input id="name" name="name" class="box boxMargin" type="text" placeholder="ФИО">
+            <input id="phone" name="phone" class="box boxMargin" type="text" placeholder="Моб. телефон">
+            <input id="mail" name="mail" class="box boxMargin" type="text" placeholder="Эл. почта">
+            <input id="balance" name="balance" class="box boxMargin" type="text" placeholder="Баланс">
+            <div class="box boxMargin">
+                Пол:
+                <input class="radio" name="gender" type="radio" value="m"> Мужчина
+                <input class="radio" name="gender" type="radio" value="f"> Женщина
+            </div>
+            <input id="submitButton" class="box boxMargin" type="submit" value="Регистрация">
+        </form>
+    </div>
+</body>
+
+</html>
